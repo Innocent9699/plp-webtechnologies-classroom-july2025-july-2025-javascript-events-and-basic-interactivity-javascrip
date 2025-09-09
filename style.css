@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f7f7f7;
+  color: #222;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #eee;
+}
+
+.faq-question {
+  cursor: pointer;
+  background-color: #ddd;
+  padding: 10px;
+  margin: 0;
+}
+
+.faq-question:hover {
+  background-color: #ccc;
+}
+
+.faq-answer {
+  background-color: #eee;
+  padding: 10px;
+  margin: 0 0 15px 0;
+}
+
+#formMessage {
+  font-weight: bold;
+  margin-top: 10px;
+}
